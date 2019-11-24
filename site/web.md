@@ -1,4 +1,4 @@
-# 初级前端工程师
+# 前端工程师
 
 技术栈: 主要编程语言为 [Javascript](https://clearloop.github.io/find-a-job/web.html) 与 [Rust](https://clearloop.github.io/find-a-job/rust.html)。
 

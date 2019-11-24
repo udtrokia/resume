@@ -1,8 +1,5 @@
 run:
-	vuepress build
+	yarn docs:build
 	rm -rf ./docs
-	mv .vuepress/dist docs
+	mv ./site/.vuepress/dist docs
 	git add .
-
-	git commit
-	git push
