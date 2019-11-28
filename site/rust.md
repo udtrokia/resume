@@ -1,4 +1,4 @@
-# Rust 工程师
+# [Rust 工程师](https://clearloop.github.io/find-a-job/rust.html)
 
 开源项目经历：cita 运行脚本优化 [#334](https://github.com/cryptape/cita/pull/334)，[#396](https://github.com/cryptape/cita/pull/396)。
 
