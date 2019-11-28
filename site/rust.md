@@ -1,16 +1,12 @@
 # Rust 工程师
 
-技术栈: 主要编程语言为 [Javascript](https://clearloop.github.io/find-a-job/web.html) 与 [Rust](https://clearloop.github.io/find-a-job/rust.html)。
-
-开源项目经历：cita 运行脚本优化 [#334](https://github.com/cryptape/cita/pull/334)，[#396](https://github.com/cryptape/cita/pull/396)，[#1](https://github.com/cryptape/homebrew-cita/pull/1)、umi 脚本优化  [#298](https://github.com/umijs/umi/pull/298)
-
-
+开源项目经历：cita 运行脚本优化 [#334](https://github.com/cryptape/cita/pull/334)，[#396](https://github.com/cryptape/cita/pull/396)。
 
 ## 项目经历
 
 #### Lightcore(闭源)
 
-分布式存储系统，在其中制作 sled 存储接口，clap commands，jsonrpc 服务及相关 proto 类型接口转换，包括使用 rust-libp2p / quickp2p 制作 p2p 网络。
+分布式存储系统，在其中制作 sled 存储接口，clap commands，jsonrpc 服务及相关 proto 类型接口转换，包括使用 rust-libp2p / quickp2p 制作 p2p 部分。
 
 #### [SpaceJam](https://crates.io/crates/spacejam)
 
@@ -27,16 +23,15 @@
 | __[cjam](https://crates.io/crates/cjam)__                 | __用于吐槽前同事文件依赖混乱 cargo 依赖检查器。__                           |
 
 
-
 ## 工作经历
 
-| 时间            | 工作内容                                                                  | 职务     |
-| --------------- | ------------------------------------------------------------              | -------- |
-| 2019.8 - 至今   | 设计并开发 [cdr.today](https://cdr-today.github.io/intro/)，使用 dart、go | 自由职业 |
-| 2019.5 - 2019.8 | 分布式系统开发，微信小程序制作(taro)                                      | 创业     |
-| 2019.1 - 2019.5 | 设计开发 spacejam 与 sonata，mediumX(cdr.today 前身)                      | 自由职业 |
-| 2018.1 - 2019.1 | Mobile / 网页开发(React)，区块链开发                                      | 实习     |
-| 2017.5 - 2018.1 | Mobile / 网页开发 / 微信小程序开发                                        | 校园创业 |
+| 时间            | 工作内容                                                     | 职务     |
+| --------------- | ------------------------------------------------------------ | -------- |
+| 2019.8 - 至今   | 设计并开发 [cdr.today](https://cdr-today.github.io/intro/)   | 自由职业 |
+| 2019.5 - 2019.8 | lightcore，微信小程序制作(taro)                              | 创业     |
+| 2019.1 - 2019.5 | 设计开发 spacejam 与 sonata，mediumX(cdr.today 前身)         | 自由职业 |
+| 2018.1 - 2019.1 | Mobile / 网页开发(React)，区块链开发                         | 实习     |
+| 2017.5 - 2018.1 | Mobile / 网页开发 / 微信小程序开发                           | 校园创业 |
 
 
 <br><br>
@@ -44,5 +39,5 @@
 <br>
 <div style='display: flex; justify-content: space-between;'>
   <div>教育：安庆师范大学新闻学(19年毕业) </div>
-  <div> 邮箱: udtrokia@163.com </div>
+  <div> 电话: 18626153029 </div>
 </div>
