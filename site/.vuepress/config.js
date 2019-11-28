@@ -1,6 +1,6 @@
 module.exports = {
   title: 'find-a-job',
-  base: '/find-a-job',
+  base: '/find-a-job/',
   description: '',
   themeConfig: {
     nav: [
