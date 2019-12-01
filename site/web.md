@@ -15,6 +15,7 @@ Ct 作者，前端 `dart` 后端 `go`，学习使用了 flutter 的层状布局�
 + 使用 network link Conditioner 排查极端网络环境下产生的 bug
 + 搭建 smtp 服务进行邮件收发
 + 修改 zefyr 源码自定义 RichText
++ 在客户端嵌入 sqlite 根据用户使用习惯优化用户体验
 + 制作基于 Cupertino 色系，同时适配 iOS / Android dark-mode 自动换色的颜色库 CtColor.
 
 
