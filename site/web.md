@@ -1,6 +1,6 @@
 # [前端工程师](https://clearloop.github.io/find-a-job/web.html) . 张天一
 
-技术栈: React 全家桶，dart。
+技术栈: React 全家桶，flutter。
 
 开源项目经历: cita 运行脚本优化 [#334](https://github.com/cryptape/cita/pull/334)，[#396](https://github.com/cryptape/cita/pull/396)，[#1](https://github.com/cryptape/homebrew-cita/pull/1)。
 
