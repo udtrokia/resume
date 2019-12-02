@@ -1,4 +1,5 @@
-# [Rust 工程师](https://clearloop.github.io/find-a-job/rust.html) —— 张天一
+
+# [Rust 工程师](https://clearloop.github.io/find-a-job/rust.html) . 张天一
 
 开源项目经历：cita 运行脚本优化 [#334](https://github.com/cryptape/cita/pull/334)，[#396](https://github.com/cryptape/cita/pull/396)。
 
@@ -39,5 +40,5 @@
 <br>
 <div style='display: flex; justify-content: space-between;'>
   <div>教育：安庆师范大学新闻学(19年毕业) </div>
-  <div> 电话/邮箱: 18626153029/udtrokia@163.com </div>
+  <div> (电话 . 邮箱): (18626153029 . udtrokia@163.com) </div>
 </div>

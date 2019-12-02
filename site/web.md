@@ -1,4 +1,4 @@
-# [前端工程师](https://clearloop.github.io/find-a-job/web.html) —— 张天一
+# [前端工程师](https://clearloop.github.io/find-a-job/web.html) . 张天一
 
 技术栈: React 全家桶，dart。
 
@@ -48,5 +48,5 @@ Tachion(区块链) 的展示型 PWA，纯 javascript 制作整个项目(动态�
 <br>
 <div style='display: flex; justify-content: space-between;'>
   <div>教育：安庆师范大学新闻学(19年毕业) </div>
-  <div> 电话/邮箱: 18626153029/udtrokia@163.com </div>
+  <div> (电话 . 邮箱): (18626153029 . udtrokia@163.com) </div>
 </div>
