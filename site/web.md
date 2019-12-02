@@ -1,4 +1,4 @@
-# [前端工程师](https://clearloop.github.io/find-a-job/web.html)
+# [前端工程师](https://clearloop.github.io/find-a-job/web.html) —— 张天一
 
 技术栈: React 全家桶，dart。
 
@@ -23,7 +23,7 @@ Ct 作者，前端 `dart` 后端 `go`，学习使用了 flutter 的层状布局�
 
 前端 `taro`, 后台 `vue`, 后端 `node`，三端同时编写(接近 65%)，其中制作了用于 EVM 的存储类智能合约，在前端结合 leencloud 完成了 DSL 式的查询接口，服务端混合 mongodb 接口及 cita 接口等。
 
-同时期在以太坊测试链上搭建了一个文档索引工具 [MedLinker](https://github.com/openhashcat/MedLinker)(非常简陋，建议不要点开)，辅佐以 webRTC 进行点对点传输。
+同时期在以太坊测试链上搭建了一个文档索引工具 MedLinker，辅佐以 webRTC 进行点对点传输。
 
 
 #### [tachion](https://quirky-perlman-c30b6a.netlify.com) - web
@@ -48,5 +48,5 @@ Tachion(区块链) 的展示型 PWA，纯 javascript 制作整个项目(动态�
 <br>
 <div style='display: flex; justify-content: space-between;'>
   <div>教育：安庆师范大学新闻学(19年毕业) </div>
-  <div> 电话: 18626153029 </div>
+  <div> 电话/邮箱: 18626153029/udtrokia@163.com </div>
 </div>
