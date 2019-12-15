@@ -1,7 +1,12 @@
+# [Rust 工程师](https://github.com/clearloop)
 
-# [Rust 工程师](https://clearloop.github.io/find-a-job/rust.html) . 张天一
+| 姓名     | 张天一                                                                                                                                                                           |
+| -------- | ------------------------------------------------------------                                                                                                                     |
+| 技术栈   | React 全家桶，flutter; 熟练操作 emacs, tmux, 会写 Rust, Go, Python, shell。                                                                                                      |
+| 开源贡献 | cita 运行脚本优化 [#334](https://github.com/cryptape/cita/pull/334)，[#396](https://github.com/cryptape/cita/pull/396)，[#1](https://github.com/cryptape/homebrew-cita/pull/1)。 |
+| 教育经历 | 安庆师范大学新闻学，2019 年本科毕业。                                                                                                                                            |
 
-开源项目经历：cita 运行脚本优化 [#334](https://github.com/cryptape/cita/pull/334)，[#396](https://github.com/cryptape/cita/pull/396)。
+
 
 ## 项目经历
 
@@ -24,21 +29,20 @@
 | __[cjam](https://crates.io/crates/cjam)__                 | __用于吐槽前同事文件依赖混乱 cargo 依赖检查器。__                           |
 
 
+
 ## 工作经历
 
-| 时间            | 工作内容                                                     | 职务     |
-| --------------- | ------------------------------------------------------------ | -------- |
-| 2019.8 - 至今   | 设计并开发 [cdr.today](https://cdr-today.github.io/intro/)   | 自由职业 |
-| 2019.5 - 2019.8 | lightcore，微信小程序制作(taro)                              | 创业     |
-| 2019.1 - 2019.5 | 设计开发 spacejam 与 sonata，mediumX(cdr.today 前身)         | 自由职业 |
-| 2018.1 - 2019.1 | Mobile / 网页开发(React)，区块链开发                         | 实习     |
-| 2017.5 - 2018.1 | Mobile / 网页开发 / 微信小程序开发                           | 校园创业 |
+| 时间            | 工作内容                                                           | 职务     |
+| --------------- | ------------------------------------------------------------       | -------- |
+| 2019.1 - 至今   | 设计开发 spacejam, [cdr.today](https://cdr-today.github.io/intro/) | 自由职业 |
+| 2018.1 - 2019.1 | Mobile / 网页开发(React)，区块链开发                               | 实习     |
+| 2017.5 - 2018.1 | Mobile / 网页开发 / 微信小程序开发                                 | 校园创业 |
 
 
-<br><br>
+
 ---
 <br>
 <div style='display: flex; justify-content: space-between;'>
-  <div>教育：安庆师范大学新闻学(19年毕业) </div>
-  <div> (电话 . 邮箱): (18626153029 . udtrokia@163.com) </div>
+  <div>电话: 18626153029 </div>
+  <div> 邮箱: udtrokia@163.com </div>
 </div>

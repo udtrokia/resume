@@ -1,10 +1,10 @@
-# [Software Developer](https://clearloop.github.io/find-a-job/web.html) . Mercury
+# [Software Developer](https://github.com/clearloop)
 
-| k           | v                                                            |
-| ----------- | ------------------------------------------------------------ |
-| Skills      | React，flutter; good at emacs, tmux, also write Rust, Go, Python, shell. |
+| Name        | Mercury Fletcher                                                                                                                                                              |
+|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Skills      | React，flutter; good at emacs, tmux, also write Rust, Go, Python, shell.                                                                                                      |
 | Open Source | cita env script [#334](https://github.com/cryptape/cita/pull/334)，[#396](https://github.com/cryptape/cita/pull/396)，[#1](https://github.com/cryptape/homebrew-cita/pull/1). |
-| Education   | Graduated from AnQing Normal University in 2019, majored in journalism, B.A. |
+| Education   | Graduated from AnQing Normal University in 2019, majored in journalism, B.A.                                                                                                  |
 
 
 
@@ -34,11 +34,11 @@ A display PWA for Tachion blockchain，using pure javascript(dynamic rendering w
 
 ## Career
 
-| time            | work                                                                                                                                         | spec                  |
-| --------------- | ------------------------------------------------------------                                                                                 | ----------------      |
-| 2019.1 - now | design and develop [Ct](https://cdr-today.github.io/intro/) and [spacejam](https://crates.io/crates/spacejam) | Freelance  && Startup |
-| 2018.1 - 2019.1 | front-end and blockchain developer                                                                                                           | Intern                |
-| 2017.5 - 2018.1 | full stack developer                                                                                                                         | Startupx2            |
+| time            | work                                                                                                          | spec             |
+| --------------- | ------------------------------------------------------------                                                  | ---------------- |
+| 2019.1 - now    | design and develop [Ct](https://cdr-today.github.io/intro/) and [spacejam](https://crates.io/crates/spacejam) | Freelance        |
+| 2018.1 - 2019.1 | front-end and blockchain developer                                                                            | Intern           |
+| 2017.5 - 2018.1 | full stack developer                                                                                          | Startup          |
 
 ---
 

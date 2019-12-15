@@ -10,7 +10,9 @@ module.exports = {
     sidebar: [
       '/',
       '/web.md',
-      '/rust.md'
+      '/rust.md',
+      '/web_en.md',
+      '/rust_en.md'
     ],
     displayAllHeaders: false,
     lastUpdated: 'Last Updated'
