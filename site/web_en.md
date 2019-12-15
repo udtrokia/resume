@@ -19,6 +19,7 @@ Author of Ct，writing in `dart` && `go`，using  `bloc` to manage UI status, le
 + Modify `zefyr`'s source code to construct Ct's RichText.
 + Embedded `sqlite` in client to optimze UE.
 + A color repo based Cupertino color style，adaptated both iOS and Android's `dark-mode`.
++ An auth system implemented with tweetnacl, [link](https://github.com/lark-in-today/mediumx-prototype).
 
 #### 链上保(online)
 
