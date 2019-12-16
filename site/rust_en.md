@@ -1,6 +1,6 @@
 # Rust Developer - Tianyi Zhang
 
-A rust developer which has 1-year rust experience, here are my [github](https://github.com/clearloop) and [crates](https://crates.io/users/clearloop). Also have some experience in open source:  [#334](https://github.com/cryptape/cita/pull/334), [#396](https://github.com/cryptape/cita/pull/396), [#1](https://github.com/cryptape/homebrew-cita/pull/1).
+A developer which has experience in react / flutter, here are my [github](https://github.com/clearloop) and [crates](https://crates.io/users/clearloop). Also have some experience in open source:  [#334](https://github.com/cryptape/cita/pull/334), [#396](https://github.com/cryptape/cita/pull/396), [#1](https://github.com/cryptape/homebrew-cita/pull/1).
 
 
 
@@ -9,6 +9,19 @@ A rust developer which has 1-year rust experience, here are my [github](https://
 ### Freelancer
 
 > January 2019 - Present
+
+####  [cdr.today](https://cdr-today.github.io/intro/)
+
+Author of Ct, Ct is a social App which has been online in the App Store, developed with `dart` and `go`.
+
++ use network link Conditioner to test bad network
++ use `rxdart` to deal with stream
++ set up a smtp server to receive/send mails
++ modify  `zefyer`'s source code to construct Ct's RichText
++ embed `sqlite` to improve UE
++ build a color repo based Cupertino color style，adaptats both iOS and Android's `dark-mode`.
++ use redis and postgresql in the back-end
++ An auth system implemented with tweetnacl, [link](https://github.com/lark-in-today/mediumx-prototype).
 
 
 
@@ -27,21 +40,6 @@ Author of SpaceJam, SpaceJam is a micro-service system inspired by Blockchain an
 + __spaceboy__ 
 
   The advanced packaging layer which contents client(clap) APIs.
-
-
-
-####  [cdr.today](https://cdr-today.github.io/intro/)
-
-Author of Ct, Ct is a social App which has been online in the App Store, developed with `dart` and `go`.
-
-+ use network link Conditioner to test bad network
-+ use `rxdart` to deal with stream
-+ set up a smtp server to receive/send mails
-+ modify  `zefyer`'s source code to construct Ct's RichText
-+ embed `sqlite` to improve UE
-+ build a color repo based Cupertino color style，adaptats both iOS and Android's `dark-mode`.
-+ use redis and postgresql in the back-end
-+ An auth system implemented with tweetnacl, [link](https://github.com/lark-in-today/mediumx-prototype).
 
 
 
