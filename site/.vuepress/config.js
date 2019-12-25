@@ -8,11 +8,25 @@ module.exports = {
       { text: 'crates', link: 'https://crates.io/users/clearloop' },
     ],
     sidebar: [
-      '/',
-      '/web.md',
-      '/rust.md',
-      '/web_en.md',
-      '/rust_en.md'
+      {
+	title: 'Resumes',
+	path: '/resumes/',
+	children: [
+	  '/resumes/web.md',
+	  '/resumes/rust.md',
+	  '/resumes/web_en.md',
+	  '/resumes/rust_en.md'
+	]
+      }, {
+	title: 'Master Leetcode',
+	path: '/lc/',
+	children: [
+	  '/lc/',
+	  '/lc/ds.md',
+	  '/lc/algo.md',
+	  '/lc/CHANGELOG.md'
+	]
+      }
     ],
     displayAllHeaders: false,
     lastUpdated: 'Last Updated'
