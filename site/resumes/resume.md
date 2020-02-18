@@ -1,3 +1,13 @@
+# Developer Advocate - Mercury
+
+Hi, this is Mercury(or Tianyi Zhang in Chinese) to Parity.
+
+Glad to see your advertizement in China, I'm a full stack developer with 3 years experience, familiar with `Rust`, `Dart`, and `Javascript`, used to be an intern at a blockchain company in SuZhou.
+
+For Developer Advocate, I'm a self-taught programmer, have some empathy ability with non technical personnel in some way, besides, writing articles and editing pictures/videos are part of my life, this position might be suitable for me.
+
+
+
 ## Open Source Contributes
 
 | id             | pull requests                                | status | repository            |
