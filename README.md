@@ -1,99 +1,61 @@
-## Open Source Contributes
+## Projects
 
-| id             | pull requests                                | status | repository            |
-|----------------|----------------------------------------------|--------|-----------------------|
-| [#1][#1]       | Add basic scripts, cita-secp256k1, v0.22.0.  | Merged | citahub/homebrew-cita |
-| [#298][#298]   | Add help command                             | Merged | umijs/umi             |
-| [#334][#334]   | Installation && Exectution Optimization.     | Merged | citahub/cita          |
-| [#396][#396]   | Patch to absolute paths in starting scripts. | Merged | citahub/cita          |
-| [#1986][#1986] | Add plain_object attribute                   | Open   | rustwasm/wasm-bindgen |
-| [#1990][#1990] | Reflect optional struct fields in typescript | Open   | rustwasm/wasm-bindgen |
+### [ElvisJS][elvisjs]
+
+This project abstracts UI structures in pure Rust, faster than vue for 2\~3 times, react for 5\~8 times. 
+Joined The Mozilla Open Lab in the summer of 2020.
+
+
+
+### [Sup][sup]
+
+The substrate package manager which can manage substrate packages using git registry, got a grant from web3 foundation, this
+project has been recorded in [substrate-developer-hub/awesome-substrate][awesome], and granted by the [web3 foundation][w3f].
+
+
+
+### [Leetcode-cli][leetcode-cli]
+
+The rust client of leetcode.com, it saids that Rust developers love building wheels, I'm proud that I'm one of the lovers,
+`leetcode-cli` inspired by the `node` one, but **better**(don`t ask me why, because I wrote it in rust).
+
+Downloaded from crates.io around 3k.
+
+
+
+
+### [etc][etc]
+
+A simple no dependencies filesystem wrapper in rust, downloaded from crates.io around 4.2k.
+
 
 ## Experience
 
+### Darwinia Network
+
+> March 2020 - October 2020
+
+
+
+| Project                                  | Description                                                                                                                                                                                                                                                                      |
+|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [shadow][shadow]                         | The shadow service for relayers and verify workers to retrieve header data and generate proof. Written in both golang and rust, interacting using FFI, contains dockerfiles that enable shadow to be built on alpine, handled a lot of static/dynamic links on operating system. |
+| [bridge-primitives][bridge-primitives]   | The primitive types for the bridge chain solution. Abstracted the runtime of Darwinia, supports rpc feature and runtime feature, it empowers the darwinia api client can run in any platform, lightly.                                                                           |
+| [bridger][bridger]                       | Darwinia relayer client and watchtower in rust. A lot of async code in this repo, micro services in arch.                                                                                                                                                                        |
+| [dj][dj]                                 | Darwinia relayer client and watchtower in typescript. Handled a lot of polkadotjs thing.                                                                                                                                                                                         |
+| [telegram-bot][tg-bot]                   | Darwinia faucet bot for telegram. Implemented semantics config in yaml.                                                                                                                                                                                                          |
+| [subscan-essentials][subscan-essentials] | The open source version subscan. Re-arched this project following kratos.                                                                                                                                                                                                        |
+
+
+
 ### Freelancer
 
-> January 2019 - Present
-
-#### [elvis][elvis]
-
-Author of `elvis`, this project abstracts UI structures in pure Rust. The core lib of elvis `elvis` depends on Rust std lib completly, and a derived lib named [elvis-web][elvis-web] uses `wasm-bindgen` porting the UI structures to `wasm`.
-
-The aspiration of `elvis` is quite big that I can't keep developing it on my own after these days, it wants to simplify programming behaviors for green hands, and will involve into web from `wasm`, mobile from `flutter`, desktop from `electron`.
-
-**[elvis.js][elvis.js]**
-
-This is the browser version of `elvis`, contains [create-elvis-app][create-elvis-app], [elvis-cli][elvis-cli] and [calling-elvis][calling-elvis] for now.
-
-+ `calling-elvis`: standardize elvis wasm exports for typescript and javascript.
-+ `elvis-cli`: cli for elvis apps, actually a webpack plugin, depends on `webpack-dev-server`.
-+ `create-elvis-app`: scaffold for creating elvis app.
-
-The syntax of `elvis.js` is inspired by `flutter`, it implements OOP in frontend, but powered by `wasm` and `javascript`. Writing `elvis.js` requires no `html` knowledge nor `css` knowledge, web developing should be easy and efficient as it has never been.
-
-#### [leetcode-cli][leetcode-cli]
-
-Author of `leetcode-cli`, it saids that Rust developers love building wheels, I'm proud that I'm one of the lovers, `leetcode-cli` inspired by the `node` one, but **better**(don`t ask me why, because I wrote it in rust).
-
-The difficult part of this project is handling browser cookies, for example, decrypting cookies from Chrome should across `pkcs5` and `aes-128-cbc`. Beside cryptography, terminal-ui kills me as well, keywords and commands designs took me really a long time, I had got this leetcode-cli idea till the beta version came out takes me one week, coding approach 20 hrs per day.
-
-#### [authing.dart][authing.dart]
-
-Author of `authing.dart`, a dart version of [authing][authing] GraphQL client, completed in 3 days.
-
-####  [cdr.today][cdr.today]
-
-Author of Ct, Ct is a social App which has been online in App Store, developed with `Dart` and `Go`.
-
-+ use network link Conditioner testing bad network
-+ use `rxdart` handling http stream
-+ set up a smtp server to receive/send mails
-+ modify  `zefyer`'s source code to construct Ct's RichText
-+ embed `sqlite` to improve UE
-+ build a color repo based Cupertino color style，adaptats both iOS and Android's `dark-mode`.
-+ use redis and postgresql in backend
-+ An auth system implemented with tweetnacl, [link][auth-system].
-
-This project opens source for now, no docs...but a lot of [code][ct-mobile], it takes me almost 6 months thinking and coding at home day and night, the technique in this project might not complex, but the user experiences really bothered me, though it's available in App Store now, I'm not satisfied.
-
-Ct is an experimental App for decentralize systems, it focus on the original type of network communicating, words, and the basic social relationships, small groups, the entry seems not clear for now, but I'll find it out one day.
-
-#### [SpaceJam][spacejam]
-
-Author of SpaceJam, SpaceJam is a micro-service system inspired by Blockchain and Smart Contracts, which is characterized by low coupling layer structure and cross-platform: 
-
-+ __primitive__
-
-  The basic layer in SpaceJam, implemented with the pure std library, which includes transaction data structure, I/O model, TCP APIs and macros. The network part is implemented with gossip protocol and proof-of-work.
-
-+ __thruster__
-
-  This is a  third-part plugin layer, which mainly implemented the transaction pools and peer-to-peer protocol. Technologies in this layer contents: database(sled), crypto(ed25519), and rust-libp2p.
-
-+ __spaceboy__ 
-
-  The advanced packaging layer which mainly contains client(clap) APIs.
+> January 2019 - March 2020
 
 
+Wrote ElvisJS and leetcode-cli mentioned above.
 
-#### LianShangBao
-
-A weChat mini-program cooperated with PICC, which is about `blockchain` and `insurance`，using `taro`, `vue` and `node`，wrote EVM contracts and many APIs amoung `cita`, `leancloud` and `mongodb`.
-
-At the same time, my friend and I built a doc-index tool(web app) `MedLinker` on Ethereum test network, using `webRTC` as a feature.
-
-
-
-#### Others
-
-| Name                         | Intro                                                 |
-| ---------------------------  | ----------------------------------------------------- |
-| [cjam][cjam]                 | A checker for cargo dependencies                      |
-| [licer][licer]               | Yet another license generator                         |
-| [radiancy][radiancy]         | Translated [blockchain_go][blockchain_go] into rust   |
-| [sonata][sonata]             | Lisp style DSL                                        |
-| [tweetnacl-rs][tweetnacl-rs] | Package [sodalite][sodalite]                          |
-| [types][types]               | Rust type conditions using macro                      |
+Wrote an App named [cdr.today][cdr.today] which is a social App using dart and go, it has been online in App Store.
 
 
 
@@ -113,15 +75,36 @@ As a partner of \<Blockchain Thirty-Six Stratagems\>, wrote down 36 articles abo
 
 As a full-stack developer, wrote two WeChat mini programs and one React-native App, a few web pages.
 
-I started my company when I was a sophomore, from 2017 till now, I've got involved into startups for 3 times, and started my own company for 2 times, the result is...I failed at any time, but still have plenty of fight left, Bob Dylan sings:
+I started my company when I was a sophomore. From 2017 till now, I've got involved into startups for 3 times, and started my own company for 2 times, the result is...I failed at any time, but still have plenty of fight left, Bob Dylan sings:
 
 ```
 Crimson flames tied through my ears, rolling high and mighty traps. Pounced with fire on flaming roads, using ideas as my maps, "We'll meet on edges soon" said I, Proud 'neath heated brow"
 ```
 
-That's what I'm thiking about now.
+That's what I'm thiking about.
 
 
+
+## Open Source Contribution
+
+### PRs
+
+| id             | pull requests                                | status | repository            |
+| -------------- | -------------------------------------------- | ------ | --------------------- |
+| [#1][#1]       | Add basic scripts, cita-secp256k1, v0.22.0.  | Merged | citahub/homebrew-cita |
+| [#298][#298]   | Add help command                             | Merged | umijs/umi             |
+| [#334][#334]   | Installation && Exectution Optimization.     | Merged | citahub/cita          |
+| [#396][#396]   | Patch to absolute paths in starting scripts. | Merged | citahub/cita          |
+| [#1986][#1986] | Add plain_object attribute                   | Merged | rustwasm/wasm-bindgen |
+| [#1990][#1990] | Reflect optional struct fields in typescript | Merged | rustwasm/wasm-bindgen |
+
+
+### Projects
+
+| name                         | organization |
+|------------------------------|--------------|
+| [authing.dart][authing.dart] | Authing      |
+| [coda][coda]                 | DimensionDev |
 
 
 
@@ -132,14 +115,6 @@ That's what I'm thiking about now.
 > September 2015 —— June 2019
 
 I'm a folk who used to want to be a designer or a reporter, things had changed when I abstracted my first design for an campus App, no one can make it come true in my friendships, so I taught myself how to write programs and could not stop it...
-
-+ **sport**: I'm the first guy who join the basketball team of the department of journalismin as a freshman in our department history, my friends and I beat seniors' team when we are sophomores, created history as well, absolutly the champions ; )
-
-+ **music**: I'm a terrible guitar player as well, invovled into several shows in evening parties, no fans, no memories, but the truth is Rock N' Roll is my life, one of my big dream is becoming a Rock Star, driving my steam bicycle across the universe.
-
-+ **editor**: Yet another terrible writer, I completed my first book when I was a sophomore, mainly about my cofusions about 42, and keep running wechat official accounts for 4 years, 300+ articles, 300+ followers, I write about my life, my thoughts about the meanning, about aching to be free as in freedom.
-
-+ **designer**: A terrible designer, I taught myself how to edit pictures and videos when I was a freshman, the whole year, if I'm not in library nor classroom nor basketball court, I'm editing or recording pictures and videos. I'm quite familiar with Adobe family, but not a good designer in some way.
 
 I taught myself most of the time in college, free from it when I was a junior(_broke the law of our school in some way..._), and finally got the diploma by luck. I'm not a good student for school, but might the better dude for human history.
 
@@ -157,25 +132,19 @@ I taught myself most of the time in college, free from it when I was a junior(_b
 [#1986]: https://github.com/rustwasm/wasm-bindgen/pull/1986
 [#1990]: https://github.com/rustwasm/wasm-bindgen/pull/1990
 [authing]: https://github.com/Authing/authing
-[auth-system]: https://github.com/lark-in-today/mediumx-prototype
-[authing.dart]: https://github.com/clearloop/authing.dart
-[blockchain_go]: https://github.com/Jeiwan/blockchain_go
-[calling-elvis]: https://github.com/clearloop/elvis.js/tree/master/packages/calling-elvis
 [cdr.today]: https://cdr-today.github.io/intro/
 [cjam]: https://crates.io/crates/cjam
 [crates]: https://crates.io/users/clearloop
-[create-elvis-app]: https://github.com/clearloop/elvis.js/tree/master/packages/create-elvis-app
-[ct-mobile]: https://github.com/clearloop/ct-mobile.old
-[elvis]: https://github.com/clearloop/elvis
-[elvis.js]: https://github.com/clearloop/elvis.js
-[elvis-cli]: https://github.com/clearloop/elvis.js/tree/master/packages/elvis-cli
-[elvis-web]: https://github.com/clearloop/elvis/tree/master/web
+[elvisjs]: https://github.com/elvisjs/elvis
 [github]: https://github.com/clearloop
 [leetcode-cli]: https://github.com/clearloop/leetcode-cli
-[licer]: https://github.com/clearloop/licer
-[radiancy]: https://github.com/udtrokia/Radiancy
-[sodalite]: https://crates.io/crates/sodalite
-[sonata]: https://crates.io/crates/sonata
-[spacejam]: https://crates.io/crates/spacejam
-[types]: https://crates.io/crates/typens
-[tweetnacl-rs]: https://crates.io/crates/tweetnacl-rs
+[authing.dart]: https://github.com/Authing/authing.dart
+[coda]: https://github.com/DimensionDev/coda
+[bridger]: https://github.com/darwinia-network/bridger
+[dj]: https://github.com/darwinia-network/dj
+[tg-bot]: https://github.com/darwinia-network/telegram-bot
+[shadow]: https://github.com/darwinia-network/shadow
+[bridge-primitives]: https://github.com/darwinia-network/bridger/tree/master/primitives
+[subscan-essentials]: https://github.com/itering/subscan-essentials
+[sup]: https://github.com/clearloop/sup
+[etc]: https://github.com/clearloop/etc
