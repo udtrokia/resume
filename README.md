@@ -1,33 +1,11 @@
 ## Projects
 
-### [ElvisJS][elvisjs]
-
-This project abstracts UI structures in pure Rust, faster than vue for 2\~3 times, react for 5\~8 times. 
-Joined The Mozilla Open Lab in the summer of 2020.
-
-
-
-### [Sup][sup]
-
-The substrate package manager which can manage substrate packages using git registry, got a grant from web3 foundation, this
-project has been recorded in [substrate-developer-hub/awesome-substrate][awesome], and granted by the [web3 foundation][w3f].
-
-
-
-### [Leetcode-cli][leetcode-cli]
-
-The rust client of leetcode.com, it saids that Rust developers love building wheels, I'm proud that I'm one of the lovers,
-`leetcode-cli` inspired by the `node` one, but **better**(don`t ask me why, because I wrote it in rust).
-
-Downloaded from crates.io around 3k.
-
-
-
-
-### [etc][etc]
-
-A simple no dependencies filesystem wrapper in rust, downloaded from crates.io around 4.2k.
-
+| Project                      | Description                                                                                                                                                                                                                                                              |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [ElvisJS][elvisjs]           | This project abstracts UI structures in pure Rust, faster than vue for 2\~3 times, react for 5\~8 times. Joined The Mozilla Open Lab in the summer of 2020.                                                                                                              |
+| [Sup][sup]                   | The substrate package manager which can manage substrate packages using git registry, got a grant from web3 foundation, this project has been recorded in [substrate-developer-hub/awesome-substrate][awesome], and granted by the [web3 foundation][w3f].               |
+| [Leetcode-cli][leetcode-cli] | The rust client of leetcode.com, it saids that Rust developers love building wheels, I'm proud that I'm one of the lovers, `leetcode-cli` inspired by the `node` one, but **better**(don`t ask me why, because I wrote it in rust). Downloaded from crates.io around 3k. |
+| [Etc][etc]                   | A simple no dependencies filesystem wrapper in rust, downloaded from crates.io around 4.2k.                                                                                                                                                                              |
 
 ## Experience
 
@@ -148,3 +126,4 @@ I taught myself most of the time in college, free from it when I was a junior(_b
 [subscan-essentials]: https://github.com/itering/subscan-essentials
 [sup]: https://github.com/clearloop/sup
 [etc]: https://github.com/clearloop/etc
+[awesome]: https://github.com/substrate-developer-hub/awesome-substrate#ecosystem-tools
