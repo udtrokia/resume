@@ -127,3 +127,4 @@ I taught myself most of the time in college, free from it when I was a junior(_b
 [sup]: https://github.com/clearloop/sup
 [etc]: https://github.com/clearloop/etc
 [awesome]: https://github.com/substrate-developer-hub/awesome-substrate#ecosystem-tools
+[w3f]: https://github.com/w3f/Open-Grants-Program
